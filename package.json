@@ -1,0 +1,26 @@
+{
+  "name": "quartet-apod-exercise",
+  "version": "1.0.0",
+  "description": "Quartet React exercise to build a NASA APOD component",
+  "scripts": {
+    "start": "webpack-dev-server --content-base build/"
+  },
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "styled-components": "1.3.1",
+    "whatwg-fetch": "2.0.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.22.0",
+    "babel-preset-stage-0": "^6.22.0",
+    "html-webpack-plugin": "^2.26.0",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "author": "Quartet",
+  "license": "MIT"
+}
